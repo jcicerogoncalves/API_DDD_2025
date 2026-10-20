@@ -2,10 +2,6 @@ name: Ola, mundo!
 
 on: [push]
 
-jobs:
-  ola_mundo_jobs:
-
   steps:
-
   - name: Ola, mundo!
     run: echo "Olá, mundo!!"
