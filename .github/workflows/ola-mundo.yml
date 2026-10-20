@@ -4,11 +4,8 @@ on: [push]
 
 jobs:
   ola_mundo_jobs:
-  runs-on: ubuntu-latest
 
   steps:
-  - name: checkout
-    uses: actions/checkout@v2
-  
+
   - name: Ola, mundo!
     run: echo "Olá, mundo!!"
