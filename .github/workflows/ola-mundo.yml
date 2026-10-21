@@ -1,7 +1,1 @@
-name: Ola, mundo!
 
-on: [push]
-
-  steps:
-  - name: Ola, mundo!
-    run: echo "Olá, mundo!!"
